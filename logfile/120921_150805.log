@@ -1,0 +1,4 @@
+2021-09-12 15:08:23.599 INFO server - serve: Started server process [804]
+2021-09-12 15:08:23.599 INFO on - startup: Waiting for application startup.
+2021-09-12 15:08:23.600 INFO on - startup: Application startup complete.
+2021-09-12 15:08:23.601 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)

@@ -1,0 +1,17 @@
+2021-08-28 11:26:48.371 INFO server - serve: Started server process [2125]
+2021-08-28 11:26:48.371 INFO on - startup: Waiting for application startup.
+2021-08-28 11:26:48.372 INFO on - startup: Application startup complete.
+2021-08-28 11:26:48.372 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:37782 (Press CTRL+C to quit)
+2021-08-28 11:27:11.372 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-08-28 11:27:11.372 DEBUG multipart - callback: Calling on_header_field with data[36:55]
+2021-08-28 11:27:11.372 DEBUG multipart - callback: Calling on_header_value with data[57:107]
+2021-08-28 11:27:11.372 DEBUG multipart - callback: Calling on_header_end with no data
+2021-08-28 11:27:11.372 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-08-28 11:27:11.373 DEBUG multipart - callback: Calling on_part_data with data[111:6380]
+2021-08-28 11:27:11.373 DEBUG multipart - callback: Calling on_part_end with no data
+2021-08-28 11:27:11.375 DEBUG multipart - callback: Calling on_end with no data
+2021-08-28 11:27:11.376 INFO service - predict_binary: predict_binary
+2021-08-28 11:33:53.826 INFO server - shutdown: Shutting down
+2021-08-28 11:33:53.927 INFO on - shutdown: Waiting for application shutdown.
+2021-08-28 11:33:53.927 INFO on - shutdown: Application shutdown complete.
+2021-08-28 11:33:53.929 INFO server - serve: Finished server process [2125]

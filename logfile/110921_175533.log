@@ -1,0 +1,80 @@
+2021-09-11 17:55:47.764 INFO server - serve: Started server process [2624]
+2021-09-11 17:55:47.764 INFO on - startup: Waiting for application startup.
+2021-09-11 17:55:47.765 INFO on - startup: Application startup complete.
+2021-09-11 17:55:47.767 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+2021-09-11 17:56:03.389 INFO service - predict: predict
+2021-09-11 17:56:03.446 ERROR h11_impl - run_asgi: Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/protocols/http/h11_impl.py", line 369, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/middleware/proxy_headers.py", line 59, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 222, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 138, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/encoders.py", line 90, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/encoders.py", line 104, in jsonable_encoder
+    jsonable_encoder(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [ValueError('dictionary update sequence element #0 has length 4; 2 is required'), TypeError('vars() argument must have __dict__ attribute')]
+2021-09-11 17:56:24.344 INFO service - predict: predict
+2021-09-11 17:56:24.378 ERROR h11_impl - run_asgi: Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/protocols/http/h11_impl.py", line 369, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/dist-packages/uvicorn/middleware/proxy_headers.py", line 59, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/usr/local/lib/python3.8/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/dist-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 222, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/routing.py", line 138, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/encoders.py", line 90, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/encoders.py", line 104, in jsonable_encoder
+    jsonable_encoder(
+  File "/usr/local/lib/python3.8/dist-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [ValueError('dictionary update sequence element #0 has length 4; 2 is required'), TypeError('vars() argument must have __dict__ attribute')]
+2021-09-11 17:56:43.803 INFO server - shutdown: Shutting down
+2021-09-11 17:56:43.904 INFO on - shutdown: Waiting for application shutdown.
+2021-09-11 17:56:43.905 INFO on - shutdown: Application shutdown complete.
+2021-09-11 17:56:43.907 INFO server - serve: Finished server process [2624]

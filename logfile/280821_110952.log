@@ -1,0 +1,28 @@
+2021-08-28 11:09:56.768 INFO server - serve: Started server process [1819]
+2021-08-28 11:09:56.768 INFO on - startup: Waiting for application startup.
+2021-08-28 11:09:56.769 INFO on - startup: Application startup complete.
+2021-08-28 11:09:56.771 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+2021-08-28 11:10:18.619 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-08-28 11:10:18.620 DEBUG multipart - callback: Calling on_header_field with data[36:55]
+2021-08-28 11:10:18.620 DEBUG multipart - callback: Calling on_header_value with data[57:107]
+2021-08-28 11:10:18.620 DEBUG multipart - callback: Calling on_header_end with no data
+2021-08-28 11:10:18.620 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-08-28 11:10:18.620 DEBUG multipart - callback: Calling on_part_data with data[111:6380]
+2021-08-28 11:10:18.621 DEBUG multipart - callback: Calling on_part_end with no data
+2021-08-28 11:10:18.621 DEBUG multipart - callback: Calling on_end with no data
+2021-08-28 11:10:18.622 INFO service - predict_binary: predict_binary
+2021-08-28 11:10:53.901 INFO service - predict: predict
+2021-08-28 11:11:08.320 INFO service - predict: predict
+2021-08-28 11:11:12.979 DEBUG multipart - callback: Calling on_part_begin with no data
+2021-08-28 11:11:12.980 DEBUG multipart - callback: Calling on_header_field with data[36:55]
+2021-08-28 11:11:12.980 DEBUG multipart - callback: Calling on_header_value with data[57:107]
+2021-08-28 11:11:12.980 DEBUG multipart - callback: Calling on_header_end with no data
+2021-08-28 11:11:12.980 DEBUG multipart - callback: Calling on_headers_finished with no data
+2021-08-28 11:11:12.980 DEBUG multipart - callback: Calling on_part_data with data[111:6380]
+2021-08-28 11:11:12.987 DEBUG multipart - callback: Calling on_part_end with no data
+2021-08-28 11:11:12.987 DEBUG multipart - callback: Calling on_end with no data
+2021-08-28 11:11:12.988 INFO service - predict_binary: predict_binary
+2021-08-28 11:25:16.326 INFO server - shutdown: Shutting down
+2021-08-28 11:25:16.427 INFO on - shutdown: Waiting for application shutdown.
+2021-08-28 11:25:16.428 INFO on - shutdown: Application shutdown complete.
+2021-08-28 11:25:16.430 INFO server - serve: Finished server process [1819]

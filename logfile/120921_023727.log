@@ -1,0 +1,8 @@
+2021-09-12 02:37:40.786 INFO server - serve: Started server process [89]
+2021-09-12 02:37:40.787 INFO on - startup: Waiting for application startup.
+2021-09-12 02:37:40.787 INFO on - startup: Application startup complete.
+2021-09-12 02:37:40.788 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:5005 (Press CTRL+C to quit)
+2021-09-12 02:37:55.546 INFO server - shutdown: Shutting down
+2021-09-12 02:37:55.647 INFO on - shutdown: Waiting for application shutdown.
+2021-09-12 02:37:55.647 INFO on - shutdown: Application shutdown complete.
+2021-09-12 02:37:55.651 INFO server - serve: Finished server process [89]

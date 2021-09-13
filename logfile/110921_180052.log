@@ -1,0 +1,5 @@
+2021-09-11 18:01:08.161 INFO server - serve: Started server process [3371]
+2021-09-11 18:01:08.162 INFO on - startup: Waiting for application startup.
+2021-09-11 18:01:08.162 INFO on - startup: Application startup complete.
+2021-09-11 18:01:08.166 INFO server - _log_started_message: Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+2021-09-11 18:01:10.429 INFO service - predict: predict

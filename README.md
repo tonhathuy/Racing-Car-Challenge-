@@ -24,7 +24,7 @@ note: change value NVIDIA_NAME
     trtexec --loadEngine=yolov4-tiny-224.trt --plugins=/workspace/tensorrt_demos/plugins/libyolo_layer.so
 
 #### - Copy to host volume
-    mkdir backup/$NVIDIA_NAME
+    mkdir /backup/$NVIDIA_NAME
     cp yolov4-tiny-224.trt /backup/$NVIDIA_NAME/
     cd /workspace/ && cp Models_trt/* /backup/$NVIDIA_NAME/
     

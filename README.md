@@ -1,4 +1,6 @@
 # Racing-Car-Challenge
+- This repo shows how to deploy Yolo4-tiny and [Pinet](https://github.com/koyeongmin/PINet) with TensorRT engine to Triton Inference Server. 
+- How to convert Pinet to TensorRT engine
 ## TensorRT converter with docker
     
     git clone -b tensorrt_convert https://github.com/tonhathuy/Racing-Car-Challenge-.git
